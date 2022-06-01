@@ -1,6 +1,6 @@
-function Finalnome(){
+function Finalnome(props){
     return(
-        <h4>Araujo</h4>
+        <h4>Araujo{props.nome}</h4>
     )
 }
 
